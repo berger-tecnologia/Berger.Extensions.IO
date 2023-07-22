@@ -10,7 +10,7 @@ resources:
     ref: refs/heads/dev
 jobs:
 - job: Berger.Extensions.IO-Jobs
-  displayName: Berger.Extensions.IO-Agent
+  displayName: BergerExtensionsIO_Agent
   pool:
     vmImage: windows-latest
   steps:
