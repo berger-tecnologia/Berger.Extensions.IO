@@ -9,7 +9,7 @@ resources:
     type: git
     ref: refs/heads/dev
 jobs:
-- job: Job_1
+- job: Berger.Extensions.IO-Jobs
   displayName: Berger.Extensions.IO-Agent
   pool:
     vmImage: windows-latest
