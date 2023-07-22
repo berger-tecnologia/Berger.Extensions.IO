@@ -9,8 +9,8 @@ resources:
     type: git
     ref: refs/heads/dev
 jobs:
-- job: Berger.Extensions.IO-Jobs
-  displayName: BergerExtensionsIO_Agent
+- job: BergerExtensionsIO_Jobs
+  displayName: Berger.Extensions.IO-Job
   pool:
     vmImage: windows-latest
   steps:
