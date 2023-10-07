@@ -13,6 +13,12 @@ namespace Berger.Extensions.IO
 
             return stream.ReadToEnd();
         }
+        public static string[] GetFiles(string path, string extensions)
+        {
+            var dir = GetDirectoryPath(path, AssemblyType.Entry);
+
+            return Directory.GetFiles(dir, extensions);
+        }
         public static string[] GetFiles(string path)
         {
             var files = new List<string>();
